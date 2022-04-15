@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecureFileArchiving", "SecureFileArchiving\SecureFileArchiving.csproj", "{7E69843F-DFC1-4027-A79C-2CA162B68406}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FileCryption", "FileCryption", "{32291B40-DB67-4362-B358-B82DDF3A2BEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileCryption", "FileCryption\FileCryption.csproj", "{7AE1EB90-3CDC-4378-8088-8921F67BC56D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7E69843F-DFC1-4027-A79C-2CA162B68406}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E69843F-DFC1-4027-A79C-2CA162B68406}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E69843F-DFC1-4027-A79C-2CA162B68406}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E69843F-DFC1-4027-A79C-2CA162B68406}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AE1EB90-3CDC-4378-8088-8921F67BC56D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AE1EB90-3CDC-4378-8088-8921F67BC56D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AE1EB90-3CDC-4378-8088-8921F67BC56D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AE1EB90-3CDC-4378-8088-8921F67BC56D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7AE1EB90-3CDC-4378-8088-8921F67BC56D} = {32291B40-DB67-4362-B358-B82DDF3A2BEF}
+	EndGlobalSection
+EndGlobal
