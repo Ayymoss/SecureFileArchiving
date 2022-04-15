@@ -1,6 +1,6 @@
 ﻿using System.Text;
 
-namespace FileEncryption;
+namespace FileCryption;
 
 public static class AesCryption
 {
